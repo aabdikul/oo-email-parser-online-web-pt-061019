@@ -10,7 +10,7 @@ class EmailParser
 
   def initialize(emails) #creating a new instance of the email parser Class such that the attribute defined earlier (email_input) = the string of emails i feed the .new method
     @email_input = emails
-    @@all << self
+    @@all << self #if i see new, I need to define an initialize function
   end
 
   def self.all
